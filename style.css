@@ -1,0 +1,57 @@
+/* 1. Element Selector: Styles the overall body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* 2. Element Selector: Styles all main headings */
+h1, h2 {
+    color: #2c3e50;
+}
+
+/* 3. ID Selector: Targets a specific unique section (if you added an id, or we can use a class style below) */
+#main-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* 4. Class Selector: Styles the "Add Expense" section */
+.add-expense-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Grouping selectors for form inputs inside the section */
+.add-expense-section div {
+    margin-bottom: 15px;
+}
+
+.add-expense-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.add-expense-section input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* 5. Class Selector: Styles the "Your Expenses" placeholder section */
+.expenses-list-section {
+    background-color: #eef2f7;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #3498db;
+}
